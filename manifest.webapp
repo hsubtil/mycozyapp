@@ -25,10 +25,6 @@
       "verbs": [
         "GET"
       ]
-    },
-    "mocks": {
-      "description": "TO REMOVE: only use as demonstration about Cozy interactions",
-      "type": "io.mocks.todos"
     }
   },
   "locales": {
