@@ -1367,12 +1367,6 @@ body {
   color: #95999d;
   font-size: 1rem;
 }
-.c-input-text:-ms-input-placeholder,
-.c-textarea:-ms-input-placeholder,
-.c-select:-ms-input-placeholder {
-  color: #95999d;
-  font-size: 1rem;
-}
 .c-input-text::-ms-input-placeholder,
 .c-textarea::-ms-input-placeholder,
 .c-select::-ms-input-placeholder {
