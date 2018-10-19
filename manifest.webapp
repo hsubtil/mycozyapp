@@ -1,12 +1,12 @@
 {
-  "name": "Mycozyapp",
-  "slug": "mycozyapp",
-  "icon": "grandlyon.png",
+  "name": "Cozytestapp",
+  "slug": "cozytestapp_original",
+  "icon": "icon.svg",
   "categories": [],
   "version": "0.1.0",
   "licence": "AGPL-3.0",
   "editor": "",
-  "source": "https://github.com/hsubtil/mycozyapp.git@build",
+  "source": "https://github.com/hsubtil/cozytestapp_original.git@build",
   "developer": {
     "name": "hsubtil",
     "url": ""
@@ -26,8 +26,8 @@
         "GET"
       ]
     },
-    "mocks": {
-      "description": "TO REMOVE: only use as demonstration about Cozy interactions",
+    "mocks todos": {
+      "description": "TO REMOVE: only used as demonstration about Cozy App data interactions",
       "type": "io.mocks.todos"
     }
   },

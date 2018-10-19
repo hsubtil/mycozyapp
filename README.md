@@ -1,11 +1,11 @@
-[![Travis build status shield](https://img.shields.io/travis/hsubtil/mycozyapp/master.svg)](https://travis-ci.org/hsubtil/mycozyapp)
-[![Github Release version shield](https://img.shields.io/github/tag/hsubtil/mycozyapp.svg)](https://github.com/hsubtil/mycozyapp/releases)
+[![Travis build status shield](https://img.shields.io/travis/hsubtil/cozytestapp_original/master.svg)](https://travis-ci.org/hsubtil/cozytestapp_original)
+[![Github Release version shield](https://img.shields.io/github/tag/hsubtil/cozytestapp_original.svg)](https://github.com/hsubtil/cozytestapp_original/releases)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 
-# Mycozyapp
+# Cozytestapp
 
-## What's Mycozyapp?
+## What's Cozytestapp?
 
 <TODO>...
 
@@ -16,13 +16,13 @@ _:pushpin: Note:_ we recommend to use [Yarn] instead of NPM for package manageme
 
 ### Install
 
-Hacking the Cozy Mycozyapp app requires you to [setup a dev environment][setup].
+Hacking the Cozy Cozytestapp app requires you to [setup a dev environment][setup].
 
 You can then clone the app repository and install dependencies:
 
 ```sh
-$ git clone https://github.com/hsubtil/mycozyapp.git
-$ cd mycozyapp
+$ git clone https://github.com/hsubtil/cozytestapp_original.git
+$ cd cozytestapp_original
 $ yarn install
 ```
 
@@ -36,21 +36,12 @@ Cozy's apps use a standard set of _npm scripts_ to run common tasks, like watch,
 You can run your application inside a Cozy thanks to the [cozy-stack docker image][cozy-stack-docker]:
 
 ```sh
-# in a terminal, run your app in watch mode
-$ cd mycozyapp
-$ yarn watch:browser
+# in a terminal, run your app in watch mode with a docker running Cozy
+$ cd cozytestapp_original
+$ yarn start
 ```
 
-Then, in another terminal:
-
-```sh
-# in another terminal, run the docker container
-$ yarn stack:docker
-# or if you want the complete command
-$ docker run --rm -it -p 8080:8080 -v "$(pwd)/build":/data/cozy-app/mycozyapp cozy/cozy-app-dev
-```
-
-Your app is now available at http://mycozyapp.cozy.tools:8080.
+After the build and the stack launched, your app is now available at http://cozytestapp_original.cozy.tools:8080.
 
 
 ### Living on the edge
@@ -79,7 +70,7 @@ yarn link cozy-ui
 Tests are run by [jest] under the hood. You can easily run the tests suite with:
 
 ```sh
-$ cd mycozyapp
+$ cd cozytestapp_original
 $ yarn test
 ```
 
@@ -100,7 +91,7 @@ Whenever your app needs to use a given `doctype`, you should:
 
 ### Open a Pull-Request
 
-If you want to work on Mycozyapp and submit code modifications, feel free to open pull-requests! See the [contributing guide][contribute] for more information about how to properly open pull-requests.
+If you want to work on Cozytestapp and submit code modifications, feel free to open pull-requests! See the [contributing guide][contribute] for more information about how to properly open pull-requests.
 
 
 ## Community
@@ -127,7 +118,7 @@ As a _developer_, you must [configure the transifex client][tx-client], and clai
 
 ### Maintainer
 
-The lead maintainer for Mycozyapp is [hsubtil](https://github.com/hsubtil), send him/her a :beers: to say hello!
+The lead maintainer for Cozytestapp is [hsubtil](https://github.com/hsubtil), send him/her a :beers: to say hello!
 
 
 ### Get in touch
@@ -142,7 +133,7 @@ You can reach the Cozy Community by:
 
 ## License
 
-Mycozyapp is developed by hsubtil and distributed under the [AGPL v3 license][agpl-3.0].
+Cozytestapp is developed by hsubtil and distributed under the [AGPL v3 license][agpl-3.0].
 
 
 
