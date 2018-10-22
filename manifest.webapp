@@ -26,9 +26,9 @@
         "GET"
       ]
     },
-    "mocks todos": {
-      "description": "TO REMOVE: only used as demonstration about Cozy App data interactions",
-      "type": "io.mocks.todos"
+    "charge": {
+      "description": "Auth to get data from enedis connector",
+      "type": "grandlyon.charge"
     }
   },
   "locales": {
